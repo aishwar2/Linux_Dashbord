@@ -73,6 +73,7 @@ while true; do
 done
 ```
 ### Step 4: Design the Dashboard with HTML/CSS
+
 Create the HTML File:
 Design a simple dashboard to display the metrics.
 Style with CSS:
@@ -86,3 +87,7 @@ python3 -m http.server 8000
 Visit http://localhost:8000 to see your real-time server dashboard.
 
 This setup is lightweight and efficient, perfect for monitoring server resources without any heavy overhead. Time to get this rolling and keep a close watch on your server’s performance!
+
+
+
+![Screenshot 2024-10-20 225241](https://github.com/user-attachments/assets/5c8a79fc-acd7-4c1c-8498-2f18dc148965)
