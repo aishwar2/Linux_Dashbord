@@ -37,14 +37,18 @@ Building and maintaining the dashboard enhances your scripting, web development,
 ### Step 1: Set Up SSH Access
 Generate SSH Keys: Create an SSH key pair on your local machine.
 
+```
 ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
+```
 Copy the Public Key to Your Server: This enables password-less SSH access.
+```
 ssh-copy-id your_username@your_server_ip
-
+```
 ### Step 2: Write Bash Scripts
 Create a Script to Collect Metrics:
 CPU, RAM, Storage, and Network usage:
-```#!/bin/bash
+```
+#!/bin/bash
 cpu=$(top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8}')
 ram=$(free -m | awk 'NR==2{printf "%.2f", $3*100/$2 }')
 storage=$(df -h | awk '$NF=="/"{printf "%s", $5}')
