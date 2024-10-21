@@ -1,3 +1,8 @@
+
+![Screenshot 2024-10-20 225241](https://github.com/user-attachments/assets/1e0d6567-5b66-40e6-8a54-fabe1ba96724)
+
+![Screenshot 2024-10-20 211335](https://github.com/user-attachments/assets/fd10ab3c-469b-4786-be71-364466bbc589)
+
 # Linux_Dashbord
 Step 1: Collect Metrics Create a script that gathers CPU, RAM, storage, and network usage from the server.
 
